@@ -3,7 +3,7 @@ os.system('cls' if os.name == 'nt' else 'clear')
 #Brüt	SGK İşçi	SGK İşv.	İşsizlik İşçi	İşsizlik İşv.	KGVM	GV Matrahı	GV	DV	AGİ	Net
 class bcolors:
     yesil = '\033[92m'
-os.system('color a' if os.name == 'nt' else print(f"{bcolors.yesil} "))
+os.system('color a' if os.name == 'nt' else "echo {}".format(bcolors.yesil))
 print("""
 #####################################
 #      Mesai Ücreti Hesaplama       #
