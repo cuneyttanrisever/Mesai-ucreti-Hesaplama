@@ -199,7 +199,7 @@ def yillik_sor():
         pass
 def saatlik_brut_ucret(a):
     global brutlu_maas
-    saatlik_ucret_brut=brutmaas/255
+    saatlik_ucret_brut=brutmaas/225
     brut_mesaili_ucret=((saatlik_ucret_brut*50)/100)+saatlik_ucret_brut
     brut_mesaisuresi_toplam=brut_mesaili_ucret*mesai_suresi
     brutlu_maas=brut_mesaisuresi_toplam+brutmaas
